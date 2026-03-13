@@ -11,7 +11,7 @@ export function GithubActivity() {
     const [loading, setLoading] = useState(true);
 
     // Note: For a real portfolio, use your actual username
-    const username = "hw24a094";
+    const username = "naki0227";
 
     useEffect(() => {
         fetch(`https://api.github.com/users/${username}/events/public`)
